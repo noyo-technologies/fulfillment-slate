@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "default": "noyo-development",
+    "dev": "noyo-development",
+    "staging": "noyo-staging",
+    "production": "noyo-production"
+  },
+  "targets": {
+    "noyo-development": {
+      "hosting": {
+        "dev": [
+          "docs-dev"
+        ]
+      }
+    },
+    "noyo-staging": {
+      "hosting": {
+        "staging": [
+          "docs-staging"
+        ]
+      }
+    },
+    "noyo-production": {
+      "hosting": {
+        "prod": [
+          "docs-prod"
+        ]
+      }
+    }
+  }
+}
