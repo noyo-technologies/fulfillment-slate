@@ -23,7 +23,7 @@
     "noyo-production": {
       "hosting": {
         "prod": [
-          "docs-prod"
+          "docs-production"
         ]
       }
     }
